@@ -8,8 +8,8 @@
 				<@button style='card-control collapse' buttonTargetId='#searchAppointment' title='#i18n{appointment.manageAppointments.labelSearch}' hideTitle=['xs','sm'] buttonIcon='search' />
 				<@aButton params='data-toggle="modal" data-target="#export_modal"' buttonIcon='download' title='#i18n{appointment.permission.label.exportMassAppointment}' />
 			</@div>
-			<@div class='jumbotron' id='searchAppointment'>
-			<@div class='container'>
+			
+			<@div class='container' id='searchAppointment'>
 				<@fieldSet legend='#i18n{appointment.manageAppointments.labelSearch}'>
 					<@row>
 						<@columns sm=3>
@@ -94,7 +94,7 @@
 						</@columns>
 					</@row>
 				</@fieldSet>
-			</@div>
+			
 			</@div>
 		</@tform>
     	
